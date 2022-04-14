@@ -16,7 +16,7 @@
 int main() {
 	int sockfd;
 	char buffer[MAXLINE];
-	char *hello = "Payal from server";
+	char *hello = "Nikita from server";
 	struct sockaddr_in servaddr, cliaddr;
 	
 	
@@ -54,4 +54,3 @@ int main() {
 	
 	return 0;
 }
-
